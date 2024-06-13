@@ -184,7 +184,7 @@
 	<key>CFBundleVersion</key>
 	<string>105</string>
 	<key>GitSHA</key>
-	<string></string>
+	<string>test</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
