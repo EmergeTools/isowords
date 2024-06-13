@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "accessibilitysnapshot",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EmergeTools/AccessibilitySnapshot.git",
+      "state" : {
+        "revision" : "54046d8fa44b9fa9f0e2229526f6ed89cb5e0ec2",
+        "version" : "1.0.2"
+      }
+    },
+    {
       "identity" : "async-kit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vapor/async-kit.git",
@@ -28,6 +37,15 @@
       }
     },
     {
+      "identity" : "flyingfox",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swhitty/FlyingFox.git",
+      "state" : {
+        "revision" : "ed86fc6d68ec1467aaab3e494b581e66dd7a4512",
+        "version" : "0.12.2"
+      }
+    },
+    {
       "identity" : "postgres-kit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vapor/postgres-kit",
@@ -43,6 +61,15 @@
       "state" : {
         "revision" : "abca6b390235ae337999d367c40cc40c99629385",
         "version" : "1.18.1"
+      }
+    },
+    {
+      "identity" : "snapshotpreviews-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EmergeTools/SnapshotPreviews-iOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e5bf73a45a105049a4dacc960011559a78c914b2"
       }
     },
     {

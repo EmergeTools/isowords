@@ -14,8 +14,6 @@
 		<string>$(AppIdentifierPrefix)co.pointfree.IsoWordsTesting</string>
 	</array>
 	<key>com.apple.security.application-groups</key>
-	<array>
-		<string>group.isowords</string>
-	</array>
+	<array/>
 </dict>
 </plist>

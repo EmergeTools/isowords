@@ -17,8 +17,6 @@
 	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
 	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
 	<key>com.apple.security.application-groups</key>
-	<array>
-		<string>group.isowords</string>
-	</array>
+	<array/>
 </dict>
 </plist>
