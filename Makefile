@@ -280,6 +280,11 @@ archive: bootstrap-client
 	 @git push origin "archive-$$(cd App && agvtool what-version -terse)"
 	 @git push origin "$$(cd App && agvtool what-marketing-version -terse1)"
 
+archive-debug: bootstrap-client
+	 @cd App \
+	   && xcodebuild -project isowords.xcodeproj -scheme "isowords" -configuration Debug -archivePath $(ARCHIVE_PATH) -skipMacroValidation archive \
+		 || (git checkout . && echo "  🛑 Failed to build archive" && exit 1)
+
 set-marketing-version:
 	@cd App && agvtool new-marketing-version $(VERSION)
 
