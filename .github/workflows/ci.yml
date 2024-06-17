@@ -106,7 +106,7 @@ jobs:
         if [ -n "$PR_COMMIT_SHA" ]; then
           upload_sha="$PR_COMMIT_SHA"
         else
-          upload_sha="$MERGE_SHA"
+          upload_sha="$MERGE_COMMIT_SHA"
         fi
         json_body="{
           \"branch\":\"${GITHUB_HEAD_REF}\",
